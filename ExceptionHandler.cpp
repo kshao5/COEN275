@@ -29,9 +29,9 @@ int main() {
     int input[] = {1,3,5,6};
     myDetector.checkOutOfBound(input, 2);
     cout << "============================" << endl;
-    // OutOfBoundDetector<char> charDetector;
-    // char input2[] = {'a','b','c','d'};
-    // charDetector.checkOutOfBound(input2, 5);
+    OutOfBoundDetector<char> charDetector;
+    char input2[] = {'a','b','c','d'};
+    charDetector.checkOutOfBound(input2, 5);
     cout << "============================" << endl;
     OutOfBoundDetector<string> stringDetector;
     string input3 = "abcdef";
